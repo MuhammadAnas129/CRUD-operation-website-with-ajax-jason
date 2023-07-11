@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Add Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+	<a href="index.php">Home</a> | <a href="view.php">View Products</a> | <a href="logout.php">Logout</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr> 
+				<td>Quantity</td>
+				<td><input type="text" name="qty"></td>
+			</tr>
+			<tr> 
+				<td>Price</td>
+				<td><input type="text" name="price"></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input class="btn btn-primary" type="submit" name="Submit" value="Add" >
+                </td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
